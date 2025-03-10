@@ -1,6 +1,6 @@
 baseURL = 'https://grey.tertiusfamily.net/'
 languageCode = 'en-us'
-title = "Grey's Musings"
+title = "Greyscale"
 theme = 'archie-solarized'
 copyright = 'Grey Lathrop'
 # pygmentsStyle = "solarized-dark"
