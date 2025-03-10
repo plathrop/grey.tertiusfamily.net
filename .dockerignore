@@ -1,0 +1,8 @@
+# flyctl launch added from .gitignore
+.hugo_build.lock
+public
+
+# flyctl launch added from themes/archie-solarized/.gitignore
+themes/archie-solarized/**/exampleSite/.hugo_build.lock
+themes/archie-solarized/**/exampleSite/public
+fly.toml

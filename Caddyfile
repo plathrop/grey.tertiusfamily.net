@@ -1,0 +1,12 @@
+{
+    auto_https off
+}
+
+http://grey.tertiusfamily.net {
+  root * /usr/share/caddy
+  file_server
+}
+
+https://grey-tertiusfamily-net.fly.dev {
+  redir https://grey.tertiusfamily.net
+}
