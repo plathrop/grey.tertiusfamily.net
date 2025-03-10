@@ -68,19 +68,6 @@ blockquote {
     padding-left: 1em;
 }
 
-ul {
-    list-style: none;
-    padding-left: 2ch;
-    font-family: 'FiraCode Nerd Font Mono Ret', sans-serif;
-}
-ul li {
-    text-indent: -2ch;
-}
-ul > li::before {
-    content: '* ';
-    font-weight: bold;
-}
-
 /* Images */
 img {
     border: 3px solid var(--base02);
@@ -217,6 +204,22 @@ h1, h2, h3, h4, h5, h6 {
     aspect-ratio: 1 /1;
     float: left;
     margin: 4px;
+}
+
+.list-item {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+article {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+article .title {
+    margin-left: 4px;
+}
+
+article .body {
+    margin-left: 4px;
 }
 
 /* h1::before { color: var(--base03); content: '# '; } */
