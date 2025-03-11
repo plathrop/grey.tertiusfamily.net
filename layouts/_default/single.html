@@ -3,7 +3,7 @@
     <article class="h-entry">
         <div class="title">
             <h1 class="title p-name">{{ .Title }}</h1>
-            <div class="meta dt-published">Posted on {{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
+            {{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}
         </div>
         {{ if isset .Params "tldr" }}
         <div class="tldr">
@@ -48,6 +48,7 @@
         {{- if eq ($.Scratch.Get "isDisqus") true -}}
         {{- partial "disqus.html" . -}}
         {{- end -}}
+        <div class="meta dt-published"> Posted on {{ dateFormat "Jan 2, 2006" .Date }}</div>
     </article>
 </main>
 {{ end }}
