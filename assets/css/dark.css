@@ -1,5 +1,6 @@
 html {
   color: var(--base00);
+  min-height: 100%;
 }
 
 a {
@@ -13,6 +14,7 @@ a:hover {
 body{
     /* background-color: var(--base02); */
     background-color: #174652;
+    background-image: linear-gradient(black, #174652);
 }
 .body a {
   color: var(--base1);
