@@ -23,9 +23,25 @@
     color: transparent;
 }
 
+@font-face {
+  font-display: swap;
+  font-family: 'FiraCode Nerd Font Ret';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/FiraCodeNerdFont-Retina.ttf') format('truetype')
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'FiraCode Nerd Font Mono Ret';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/FiraCodeNerdFontMono-Retina.ttf') format('truetype')
+}
+
 html {
     color: var(--base00);
-    font-family: 'FiraCode Nerd Font Ret', monospace;
+    font-family: 'FiraCode Nerd Font Ret';
     font-size: 18px;
     line-height: 1.6em;
 }
@@ -58,7 +74,7 @@ body{
 }
 
 p {
-    font-family: 'FiraCode Nerd Font Mono Ret', sans-serif;
+    font-family: 'FiraCode Nerd Font Mono Ret';
     line-height: 1.5;
 }
 
@@ -225,11 +241,7 @@ article {
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-article .title {
-    margin-left: 4px;
-}
-
-article .body {
+article * {
     margin-left: 4px;
 }
 
@@ -301,7 +313,7 @@ article .title {
 }
 
 .callout p {
-    font-family: 'FiraCode Nerd Font Mono Ret', monospace;
+    font-family: 'FiraCode Nerd Font Mono Ret';
     margin: 0;
 }
 
