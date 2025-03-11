@@ -20,8 +20,6 @@ A bit about my identities (in no particular order):
   * Autistic
   * Parent
   * Disabled
-  * Gamer
-  * Geek
 
 Professionally, I am a software architect with a background in
 infrastructure. You can find my resume at my
