@@ -1,5 +1,6 @@
 +++
 date = '2025-03-10T16:17:42-04:00'
+lastmod = '2025-03-11T16:18:46-04:00'
 draft = false
 title = 'Welcome'
 summary = "Welcome to my digital domain!"
