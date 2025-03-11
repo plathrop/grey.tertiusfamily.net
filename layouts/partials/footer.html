@@ -1,7 +1,10 @@
 <footer>
   <div class="footer-info">
-    <a class="border"></a>
-    © {{ dateFormat "2006" now }} {{ with .Site.Copyright }}<a class="h-card" href="https://grey.tertiusfamily.net">{{ . }}</a> | {{ end }}
+    <div class="h-card">
+      <a class="border"></a>
+      © {{ dateFormat "2006" now }} {{ with .Site.Copyright }}<a class="p-name" href="https://grey.tertiusfamily.net">{{ . }}</a> (<span class="p-gender-identity"><span class="nonbinary">they/them</span></span>) | {{ end }}
+      <img id="hcard-icon" class="u-logo" src="{{ absURL "images/robot.png" }}">
+    </div>
   </div>
   <div style="display:flex">
     {{- range $index, $key := .Site.Params.Social -}}

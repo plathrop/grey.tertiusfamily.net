@@ -16,6 +16,13 @@
     --cyan: #2aa198;
     --green: #859900;
 }
+
+.nonbinary {
+    background: linear-gradient(90deg, #FFF430 25%, #FFFFFF 25%, 50%, #9C59D1 50%, 75%, #383838 75%);
+    background-clip: text;
+    color: transparent;
+}
+
 html {
     color: var(--base00);
     font-family: 'FiraCode Nerd Font Ret', monospace;
@@ -265,6 +272,10 @@ footer {
 }
 .footer-info {
     padding: var(--footer-padding);
+}
+
+#hcard-icon {
+    display: none;
 }
 
 /* Common */
