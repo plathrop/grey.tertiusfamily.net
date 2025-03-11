@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = "Greyscale"
 theme = 'archie-solarized'
 copyright = 'Grey Lathrop'
-# pygmentsStyle = "solarized-dark"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 
