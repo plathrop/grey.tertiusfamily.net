@@ -4,7 +4,6 @@ draft = false
 title = 'Welcome'
 summary = "Welcome to my digital domain!"
 +++
-
 Welcome to my digital domain!
 
 I'm building this site as a blog and portfolio site. I intend to share
@@ -12,14 +11,17 @@ recipes, talk about software, share and discuss my projects, my views,
 and my experiences.
 
 A bit about my identities (in no particular order):
-  * Trans (agender AMAB), pronouns: they/them
-  * Bisexual
+  * <img src="/images/flags/Transgender_Pride_flag.svg" width=20 style="border: 1px solid;" /> Trans
+    * <img src="/images/flags/Nonbinary_flag.svg" width=20 style="border: 1px solid;" /> Agender
+    * my pronouns are they/them
+  * <img src="/images/flags/Bisexual_Pride_flag.svg" width=20 style="border: 1px solid;" /> Bisexual
+  * <img src="/images/flags/Furry_Pride_flag.png" width=20 style="border: 1px solid;" /> Furry
+    * (probably doesn't mean what you think)
   * Autistic
   * Parent
   * Disabled
   * Gamer
   * Geek
-  * Furry (probably doesn't mean what you think)
 
 Professionally, I am a software architect with a background in
 infrastructure. You can find my resume at my
