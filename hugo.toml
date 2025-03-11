@@ -8,9 +8,9 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 
 [params]
-    mode = "toggle"
-    useCDN = false
-    # subtitle = "Musings of Grey Lathrop"
+favicon = "images/robot.png"
+mode = "toggle"
+useCDN = false
 
 [[params.social]]
 name = "GitHub"
