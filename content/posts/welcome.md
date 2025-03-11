@@ -19,6 +19,7 @@ A bit about my identities (in no particular order):
   * Disabled
   * Gamer
   * Geek
+  * Furry (probably doesn't mean what you think)
 
 Professionally, I am a software architect with a background in
 infrastructure. You can find my resume at my
