@@ -1,7 +1,7 @@
 <footer>
   <div class="footer-info">
     <a class="border"></a>
-    © {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }}
+    © {{ dateFormat "2006" now }} {{ with .Site.Copyright }}<a class="h-card" href="https://grey.tertiusfamily.net">{{ . }}</a> | {{ end }}
   </div>
   <div style="display:flex">
     {{- range $index, $key := .Site.Params.Social -}}
