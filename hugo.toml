@@ -52,3 +52,11 @@ url = "/index.xml"
 weight = 5
 [[menu.main.params]]
   icon = "rss"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+    [markup.goldmark.renderer]
+      unsafe = true
