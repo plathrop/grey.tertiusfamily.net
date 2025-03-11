@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = "Greyscale"
 theme = 'archie-solarized'
 copyright = 'Grey Lathrop'
+timeZone = 'America/Detroit'
+
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 
