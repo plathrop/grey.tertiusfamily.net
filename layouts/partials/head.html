@@ -5,7 +5,11 @@
   </div>
   <nav>
     {{ range .Site.Menus.main }}
+    {{- if (isset .Params "icon") -}}
+    <a href="{{ .URL }}"><i data-feather="{{ .Params.Icon }}" alt="{{ .Name }}"></i></a>|
+    {{- else -}}
     <a href="{{ .URL }}">{{ .Name }}</a> |
+    {{- end -}}
     {{ end }}
     {{ if eq .Site.Params.mode "toggle" -}}
     <span id="dark-mode-toggle" onclick="toggleTheme()"></span>

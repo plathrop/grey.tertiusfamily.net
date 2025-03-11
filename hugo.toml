@@ -33,16 +33,23 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
-url = "/posts"
+name = "Resume"
+url = "https://plathrop.tertiusfamily.net"
 weight = 2
 
 [[menu.main]]
-name = "Resume"
-url = "https://plathrop.tertiusfamily.net"
+name = "All posts"
+url = "/posts"
 weight = 3
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
 weight = 4
+
+[[menu.main]]
+name = "RSS"
+url = "/index.xml"
+weight = 5
+[[menu.main.params]]
+  icon = "rss"
