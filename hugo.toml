@@ -26,7 +26,7 @@ url = "https://www.linkedin.com/in/greylathrop/"
 [[params.social]]
 name = "BlueSky"
 icon = "at-sign"
-url = "https://bsky.app/profile/greytalyn.bsky.social"
+url = "https://bsky.app/profile/grey.tertiusfamily.net"
 
 [[menu.main]]
 name = "Home"
