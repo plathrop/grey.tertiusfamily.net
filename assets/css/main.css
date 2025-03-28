@@ -76,6 +76,11 @@ body{
 p {
     font-family: 'FiraCode Nerd Font Mono Ret';
     line-height: 1.5;
+    text-indent: 2ch;
+}
+
+.footnotes p {
+    text-indent: 0ch;
 }
 
 hr {
@@ -212,9 +217,24 @@ header .main {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-size: 1.5rem;
     margin-top: 2em;
     color: var(--orange);
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+h4 {
+    font-size: 1rem;
 }
 
 #robot {
@@ -326,9 +346,15 @@ article .title {
     display: flex;
     justify-content: space-between;
 }
-.tags li::before{
-    content: "🏷 ";
+.nav .tags {
+    margin-left: 0px;
 }
+.tags {
+    list-style-type: " ";
+}
+/* .tags li::before { */
+/*     content: " "; */
+/* } */
 .tags a{
     color: var(--base1);
 }
